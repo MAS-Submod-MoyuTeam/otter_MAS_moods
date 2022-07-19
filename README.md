@@ -3,7 +3,7 @@
 <h4 align="center">all the moods i coded for monika after story.</h4>
 <p align="center">
   <a href="https://github.com/my-otter-self/otters-mas-submods/releases/latest">
-    <img alt="Latest release" src="https://img.shields.io/github/v/release/my-otter-self/otters_MAS_moods">
+    <img alt="Latest release" src="https://img.shields.io/github/v/release/my-otter-self/otter_MAS_moods">
   </a>
   <a href="https://mon.icu/discord">
     <img alt="Discord server" src="https://discordapp.com/api/guilds/970747033071804426/widget.png?style=shield">
