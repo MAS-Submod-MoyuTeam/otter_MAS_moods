@@ -3,7 +3,7 @@ init 5 python:
         Event(
             persistent._mas_mood_database,
             eventlabel="otter_mood_cryinghappiness",
-            prompt="...crying of happiness.",
+            prompt="...like crying of happiness.",
             category=[store.mas_moods.TYPE_BAD],
             unlocked=True
         ),
