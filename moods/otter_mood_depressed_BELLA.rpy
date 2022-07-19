@@ -1,7 +1,14 @@
-#I feel depressed, mood submod by my-otter-self and IsabellaLikesCandy on reddit for MONIKA AFTER STORY
-
 init 5 python:
-    addEvent(Event(persistent._mas_mood_database,"otter_mood_depressed_BELLA",prompt="...depressed.",category=[store.mas_moods.TYPE_BAD],unlocked=True),code="MOO")
+    addEvent(
+        Event(
+            persistent._mas_mood_database, 
+            eventlabel="otter_mood_depressed_BELLA",
+            prompt="...depressed.",
+            category=[store.mas_moods.TYPE_BAD],
+            unlocked=True
+        ),
+        code="MOO"
+    )
 
 label otter_mood_depressed_BELLA:
     m 2ekc "Aw..."
@@ -16,5 +23,3 @@ label otter_mood_depressed_BELLA:
     m 5dkbsa "So count on me, okay? We'll get through it together!"
     m 5fkbsb "Ehehe~"
 return "love"
-
-#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
