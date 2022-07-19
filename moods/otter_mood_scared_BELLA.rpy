@@ -1,7 +1,14 @@
-#I feel scared, mood submod by my-otter-self and IsabellaLikesCandy on reddit for MONIKA AFTER STORY
-
 init 5 python:
-    addEvent(Event(persistent._mas_mood_database,"otter_mood_scared_BELLA",prompt="...scared.",category=[store.mas_moods.TYPE_BAD],unlocked=True),code="MOO")
+    addEvent(
+        Event(
+            persistent._mas_mood_database,
+            eventlabel="otter_mood_scared_BELLA",
+            prompt="...scared.",
+            category=[store.mas_moods.TYPE_BAD],
+            unlocked=True
+        ),
+        code="MOO"
+    )
 
 label otter_mood_scared_BELLA:
     m 1ekc "Feeling scared, [player]?"
@@ -56,5 +63,3 @@ menu:
         m 1hubsb "I loooove you, [player]~"
 
 return "love"
-
-#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
