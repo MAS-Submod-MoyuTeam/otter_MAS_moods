@@ -24,6 +24,7 @@ menu:
         m "And that love grows every second!"
     
     "No":
+        $ mas_loseAffection(reason=377)
         m "Oh..."
         m "I won't lie to you, [player]."
         m "This makes me feel a little jealous."
