@@ -1,4 +1,4 @@
-<h1 align="center">🌻 otter's MAS submods! 🌻</h1>
+<h1 align="center">🌻 otter's MAS moods! 🌻</h1>
 <h3 align="center">"i want to continue screaming out who i am." ~momo</h3>
 <h4 align="center">all the moods i coded for monika after story.</h4>
 <p align="center">
