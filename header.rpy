@@ -15,7 +15,7 @@ init -989 python:
         store.sup_utils.SubmodUpdater(
             submod="MAS Otter's moods",
             user_name="my-otter-self",
-            repository_name=otter_MAS_moods",
+            repository_name="otter_MAS_moods",
             submod_dir="/Submods/Otter's moods",
             extraction_depth=3,
             redirected_files=(
