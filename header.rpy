@@ -2,7 +2,7 @@ init -990 python in mas_submod_utils:
     Submod(
         author="Otter",
         name="MAS Otter's moods",
-        description="New "I feel" options.",
+        description="New 'I feel' options.",
         version="1.0.0",
         dependencies={},
         settings_pane=None,
