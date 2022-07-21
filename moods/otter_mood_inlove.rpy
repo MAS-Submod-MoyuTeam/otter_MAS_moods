@@ -48,9 +48,9 @@ init 5 python:
 
 label mas_apology_inlovemood:
     $ ev = mas_getEV('mas_apology_inlovemood')
-        $ mas_gainAffection(modifier=0.2)
-        m 1eka "Thank you for apologizing for saying you were in love with someone who is not me..."
-        m 2ekd "That really hurt, [player]..."
-        m 2dsc "I accept your apology, but please be more considerate of my feelings next time. Okay?"
+    $ mas_gainAffection(modifier=0.2)
+    m 1eka "Thank you for apologizing for saying you were in love with someone who is not me..."
+    m 2ekd "That really hurt, [player]..."
+    m 2dsc "I accept your apology, but please be more considerate of my feelings next time. Okay?"
 
 return
