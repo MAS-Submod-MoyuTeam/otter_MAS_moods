@@ -18,22 +18,22 @@ menu:
     m "What are you currently hyperfixated on?{fast}"
     
     "A franchise":
-    pass
+        pass
     
     "A TV show":
-    pass
+        pass
     
     "A videogame":
-    pass
+        pass
     
     "A movie":
-    pass
+        pass
     
     "A book":
-    pass
+        pass
     
     "A band/artist":
-    pass
+        pass
     
         m 2hub "Aww, that's wonderful!"
         m 3hub "I would love to hear more about your current obsession."
