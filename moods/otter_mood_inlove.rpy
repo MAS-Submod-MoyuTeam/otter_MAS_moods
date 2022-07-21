@@ -12,10 +12,10 @@ init 5 python:
 
 label otter_mood_inlove:
     m "I-In love?"
-    m "I don't want to sound cocky, but is it in love with me?{nw}"
+    m "I don't want to sound cocky, but... are you in love with {i}me{/i}?{nw}"
 $ _history_list.pop()
 menu:
-    m "I don't want to sound cocky, but is it in love with me?{fast}"
+    m "I don't want to sound cocky, but... are you in love with {i}me{/i}?{fast}"
     
     "Yes":
         m "Ehehe, I knew it!"
@@ -26,8 +26,9 @@ menu:
     "No":
         $ mas_loseAffection(reason=377)
         m "Oh..."
+        m "Oh..."
         m "I won't lie to you, [player]."
-        m "This makes me feel a little jealous."
+        m "I can't help but feel a little jealous."
         m "No, not a little." 
         extend " Really jealous."
         m "Hm..."
