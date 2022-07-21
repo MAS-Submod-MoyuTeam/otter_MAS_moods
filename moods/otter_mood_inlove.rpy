@@ -24,7 +24,7 @@ menu:
         m "And that love grows every second!"
     
     "No":
-        $ mas_loseAffection(reason=377)
+        $ mas_loseAffection(ev_label="mas_apology_inlovemood")
         m "Oh..."
         m "Oh..."
         m "I won't lie to you, [player]."
@@ -36,42 +36,21 @@ menu:
 return
 
 init 5 python:
-   addEvent(
-       Event(
-           persistent.event_database,
-           eventlabel='monika_playerapologizes',
-           prompt="I want to apologize...",
-           category=['you'],
-           pool=True,
-           unlocked=True
-        )
-    )
-
-label monika_playerapologizes:
-
-    $ player_apology_reasons = {
-        377: "saying I was in love with someone who is not you."
-    
-    }
-
-return
-
-init 5 python:
     addEvent(
         Event(
             persistent._mas_apology_database,
-            prompt="...for something else.",
-            eventlabel="mas_apology_generic",
-            unlocked=True,
+            eventlabel="mas_apology_inlovemood",
+            prompt="...for saying I was in love with someone who is not you.",
+            unlocked=False
         ),
         code="APL"
     )
 
-label mas_apology_generic:
+label mas_apology_inlovemood:
+    $ ev = mas_getEV('mas_apology_inlovemood')
+        $ mas_gainAffection(modifier=0.2)
+        m 1eka "Thank you for apologizing for saying you were in love with someone who is not me..."
+        m 2ekd "That really hurt, [player]..."
+        m 2dsc "I accept your apology, but please be more considerate of my feelings next time. Okay?"
 
-    $ mas_apology_reason_db = {
-        377: "saying you were in love with someone who is not me."
-        
-    }
-    
 return
