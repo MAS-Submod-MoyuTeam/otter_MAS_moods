@@ -18,18 +18,18 @@ menu:
     m "I don't want to sound cocky, but is it in love with me?{fast}"
     
     "Yes":
-    m "Ehehe, I knew it!"
-    m "No need for the suspense then, [player]!"
-    m "I loooooooove you!"
-    m "And that love grows every second!"
+        m "Ehehe, I knew it!"
+        m "No need for the suspense then, [player]!"
+        m "I loooooooove you!"
+        m "And that love grows every second!"
     
     "No":
-    m "Oh..."
-    m "I won't lie to you, [player]."
-    m "This makes me feel a little jealous."
-    m "No, not a little." 
-    extend " Really jealous."
-    m "Hm..."
+        m "Oh..."
+        m "I won't lie to you, [player]."
+        m "This makes me feel a little jealous."
+        m "No, not a little." 
+        extend " Really jealous."
+        m "Hm..."
     
 return
 
