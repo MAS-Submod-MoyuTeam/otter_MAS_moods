@@ -3,7 +3,7 @@ init -990 python in mas_submod_utils:
         author="Otter",
         name="Otter moods",
         description="New 'I feel' options.",
-        version="1.0.0",
+        version="1.0.1",
         dependencies={},
         settings_pane=None,
         version_updates={
