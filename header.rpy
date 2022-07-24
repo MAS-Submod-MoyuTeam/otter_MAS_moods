@@ -13,7 +13,7 @@ init -990 python in mas_submod_utils:
 init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
-            submod="MAS Otter's moods",
+            submod="Otter moods",
             user_name="my-otter-self",
             repository_name="otter_MAS_moods",
             submod_dir="/Submods/Otter's moods",
