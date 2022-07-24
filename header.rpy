@@ -16,8 +16,6 @@ init -989 python:
             submod="Otter moods",
             user_name="my-otter-self",
             repository_name="otter_MAS_moods",
-            submod_dir="/Submods/Otter's moods",
-            extraction_depth=3,
             redirected_files=(
                 "README.md",
             )
