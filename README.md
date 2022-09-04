@@ -2,8 +2,14 @@
 <h3 align="center">"i want to continue screaming out who i am." ~momo</h3>
 <h4 align="center">all the moods i coded for monika after story.</h4>
 <p align="center">
+  <a href="https://github.com/my-otter-self/otter_MAS_moods/actions/workflows/lint-on-push.yml">
+    <img alt="Build status" src="https://img.shields.io/github/workflow/status/my-otter-self/otter_MAS_moods/Lint%20source%20tree%20on%20push/main">
+  </a>
   <a href="https://github.com/my-otter-self/otters-mas-submods/releases/latest">
     <img alt="Latest release" src="https://img.shields.io/github/v/release/my-otter-self/otter_MAS_moods">
+  </a>
+  <a href="https://github.com/my-otter-self/otter_MAS_moods/releases">
+    <img alt="Release downloads" src="https://img.shields.io/github/downloads/my-otter-self/otter_MAS_moods/total">
   </a>
   <a href="https://mon.icu/discord">
     <img alt="Discord server" src="https://discordapp.com/api/guilds/970747033071804426/widget.png?style=shield">
