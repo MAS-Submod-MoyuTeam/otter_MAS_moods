@@ -36,3 +36,8 @@ i'm excited to know all of you.
 i'm up to chat! come join me at mine discord server [here](https://mon.icu/discord).
 
 ![Discord server invitation](https://discordapp.com/api/guilds/970747033071804426/widget.png?style=banner3)
+
+## 💚 MAS repository
+here you can see the official Monika After Story repository!
+
+[![card](https://github-readme-stats.vercel.app/api/pin/?username=Monika-After-Story&repo=MonikaModDev)](https://github.com/Monika-After-Story/MonikaModDev)
