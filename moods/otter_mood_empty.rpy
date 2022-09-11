@@ -24,5 +24,4 @@ label otter_mood_empty:
     m 2sub "If it's a feeling that goes towards sadness, we can try doing something you love, to bring you an extra mood boost."
     m 2fka "You can overcome this, [player]."
     m 5fubsa "I believe in you, and I love you!"
-
-return "love"
+    return "love"
