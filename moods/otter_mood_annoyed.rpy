@@ -20,5 +20,4 @@ label otter_mood_annoyed:
     m 1fub "Don't be so upset, [mas_get_player_nickname()]."
     m 2fka "I'm sure you'll be back to yourself in a bit."
     m 2hua "Don't forget I love you~"
-
-return "love"
+    return "love"
