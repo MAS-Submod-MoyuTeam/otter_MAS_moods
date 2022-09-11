@@ -13,8 +13,8 @@ init 5 python:
 label otter_mood_comfortable:
     m 1wub "Oh, that's great!"
     m 7wua "Tell me more about this comfort!{nw}"
-$ _history_list.pop()
-menu:
+    $ _history_list.pop()
+    menu:
     m "Tell me more about this comfort!{fast}"
     
     "I feel comfortable with you, [m_name].":
@@ -36,6 +36,5 @@ menu:
         m 7hub "Hearing that makes me comfortable too!"
         m 5rubsa "Our little reality, when we're together, is my most comfortable place."
         m 5dubsb "You make me feel safe!"
-        m 5fubsa "I'm happy that you're feeling that way too, [player]."
-    
-return
+        m 5fubsa "I'm happy that you're feeling that way too, [player]."    
+    return
