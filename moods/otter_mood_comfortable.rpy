@@ -37,4 +37,4 @@ label otter_mood_comfortable:
         m 5rubsa "Our little reality, when we're together, is my most comfortable place."
         m 5dubsb "You make me feel safe!"
         m 5fubsa "I'm happy that you're feeling that way too, [player]."    
-    return
+        return
